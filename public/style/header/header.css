@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    width: 100vw;
+    background-color: black;
+    justify-content: center;
+}
+
+.container {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container img {
+    width: 125px;
+    height: 125px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+}
+
+header ul li {
+    height: 125px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+header ul li:hover {
+    border-bottom: 4px solid white;
+    box-sizing: border-box;
+}
+
+header ul li a {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+}
